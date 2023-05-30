@@ -67,6 +67,7 @@ clear
        chmod +x ./script/controller/nova.sh
        ./script/controller/nova.sh
        chmod +x ./script/controller/neutron.sh
+       ./script/controller/nova.sh
        ./script/controller/neutron.sh
        chmod +x ./script/controller/horizon.sh
        ./script/controller/horizon.sh
