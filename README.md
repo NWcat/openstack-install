@@ -23,7 +23,7 @@ Core services:
 
 运行脚本前，自行配置好静态IP及主机名
 
-在部署NOVA前，没有部署PLACEMENT，服务会启动失败
+在部署NOVA前，没有部署PLACEMENT，NOVA服务会启动失败
 
 脚本中出现的，如RABBIT_PASS，自行输入想设置的密码
 
