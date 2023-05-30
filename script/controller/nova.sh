@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "[1] 首次安装"
-echo "[2] 同步cell数据库"
+echo "[2] 同步cell数据库(安装完compute节点Nova,运行)"
 read -p " " fn
 if [ $fn = "1" ]; then
 read -p "输入controller节点的管理ip:" controller_ip
