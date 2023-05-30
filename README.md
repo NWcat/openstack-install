@@ -1,7 +1,9 @@
 # opentack-install
 ## 简介 
 部署环境：centos7
+
 openstack版本：Train
+
 架构 Controller + Compute
 
 Core services:
