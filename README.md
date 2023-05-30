@@ -1,9 +1,5 @@
 # opentack-install
-```
-git https://github.com/NWcat/opentack-install.git 
 
-## Switch to tool's directory
-```
-cd openstack-install
-```
-chmod +x install.sh && ./install.sh
+`git https://github.com/NWcat/opentack-install.git` 
+`cd openstack-install`
+`chmod +x install.sh && ./install.sh`
