@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "安装neutron之前，compute节点要安装好nova"
 read -p "输入controller节点的管理ip:" controller_ip
 read -p "输入dbpass:" dbpass
 read -p "输入neutron_pass:" neutron_pass
