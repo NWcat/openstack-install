@@ -16,6 +16,8 @@ Core services:
 所有组件，可以单独部署
 
 运行脚本前，自行配置好静态IP及主机名
+
+
 `git clone https://github.com/NWcat/openstack-install.git` 
 
 `cd openstack-install`
