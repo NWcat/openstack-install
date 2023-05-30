@@ -12,7 +12,7 @@ systemctl start lvm2-lvmetad.service
 
 pvcreate /dev/sdb
 vgcreate cinder-volumes /dev/sdb
-sed -i "142a \       \ filter = [ "a/sdb/", "r/.*/"]" /etc/lvm/lvm.conf
+sed -i "142a \        \ filter = [ "a/sdb/", "r/.*/"]" /etc/lvm/lvm.conf
 
 yum -y install openstack-cinder targetcli python-keystone
 
