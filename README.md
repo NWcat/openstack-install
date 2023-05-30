@@ -15,7 +15,15 @@ Core services:
 
 所有组件，可以单独部署
 
+## 须知
+
 运行脚本前，自行配置好静态IP及主机名
+
+脚本中出现的，如RABBIT_PASS，自行输入想设置的密码
+
+如PROVIDER_INTERFACE_NAME，则输入网卡名称
+
+如小写的neutron_pass，则是openstack的neutron用户密码,大写的NEUTRON_DBPASS，则是NEUTRON数据库用户密码
 
 ## Installation
 
