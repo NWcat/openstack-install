@@ -95,6 +95,8 @@ clear
     case $choice in
      1 )
        echo "安装依赖环境"
+       chmod +x ./base.sh
+       ./base.sh
        chmod +x ./script/compute/depend.sh
        ./script/compute/depend.sh
        ;;
@@ -115,6 +117,8 @@ clear
        ;;
      5 )
        echo "一键安装全部" 
+       chmod +x ./base.sh
+       ./base.sh
        chmod +x ./script/compute/depend.sh
        ./script/compute/depend.sh
        chmod +x ./script/compute/nova.sh
