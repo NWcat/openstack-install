@@ -17,9 +17,16 @@ Core services:
 
 运行脚本前，自行配置好静态IP及主机名
 
+## Installation
+
+## Download
 
 `git clone https://github.com/NWcat/openstack-install.git` 
 
+### Switch to tool's directory
+
 `cd openstack-install`
+
+### Run script
 
 `chmod +x install.sh && ./install.sh`
