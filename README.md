@@ -1,6 +1,6 @@
 # opentack-install
 
-`git https://github.com/NWcat/opentack-install.git` 
+`git clone https://github.com/NWcat/opentack-install.git` 
 
 `cd openstack-install`
 
