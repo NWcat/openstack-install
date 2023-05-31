@@ -133,7 +133,7 @@ sed -i "/^\[neutron/a auth_url = http://$HOSTNAME:5000 \
 
 cat > /etc/neutron/metadata_agent.ini << EOF
 [DEFAULT]
-nova_metadata_host = controller-02
+nova_metadata_host = $HOSTNAME
 metadata_proxy_shared_secret = METADATA_SECRET
 [cache]
 EOF
