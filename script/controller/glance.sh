@@ -30,7 +30,7 @@ cat > /etc/glance/glance-api.conf << EOF
 [cinder]
 [cors]
 [database]
-connection = mysql+pymysql://glance:$GLANCE_DBPASS@controller-02/glance
+connection = mysql+pymysql://glance:$GLANCE_DBPASS@$HOSTNAME/glance
 [file]
 [glance.store.http.store]
 [glance.store.rbd.store]
